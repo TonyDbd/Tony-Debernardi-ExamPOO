@@ -4,7 +4,7 @@
 
 1) Ecrire une interface qui obligera une classe à implémenter la fonction login prenant en
 paramètre un user et un password (0.5 point)
-
+```php
     interface loginInterface {
         public function login($user, $password);
     } 
@@ -14,7 +14,7 @@ paramètre un user et un password (0.5 point)
         public function login($user, $password){
             $this->user = $user;
             $this->password = $password;
-    }
+    }```
 
 2) Citez 6 méthodes magiques. Expliquez à quelle moment elles sont déclenchées et les
 paramètres qu’elles prennent. (1.5 points)
