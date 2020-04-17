@@ -5,7 +5,6 @@
 1) Ecrire une interface qui obligera une classe à implémenter la fonction login prenant en
 paramètre un user et un password (0.5 point)
 
-    <?php
     interface loginInterface {
         public function login($user, $password);
     } 
