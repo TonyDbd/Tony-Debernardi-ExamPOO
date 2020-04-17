@@ -25,7 +25,7 @@ paramètres qu’elles prennent. (1.5 points)
     __get( $name ) - méthode appelée quand on cherche à accéder à un attribut dont on a pas l'accès 
 (privé ou protected ou qui n'existe pas).
     __isset( $name ) - méthode appelée quand isset() ou empty() sont appelées sur des propriétés inaccessibles (privées) ou inexistante.
-    __unset( $name ) - le supprime
+    __unset( $name ) - méthode appelé sur des propriétés inaccessibles (privées) ou inexistante efface $name.**
 
 3) Je suis une méthode magique appelé implicitement à la fin d’un script. Qui suis-je ? (1
 point)
