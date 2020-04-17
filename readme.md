@@ -14,7 +14,7 @@ paramètre un user et un password (0.5 point)
         public function login($user, $password){
             $this->user = $user;
             $this->password = $password;
-    }```
+    } ```
 
 2) Citez 6 méthodes magiques. Expliquez à quelle moment elles sont déclenchées et les
 paramètres qu’elles prennent. (1.5 points)
